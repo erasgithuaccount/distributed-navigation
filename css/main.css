@@ -5,12 +5,15 @@ html {
   line-height: 1.5;
   background-color: #fff;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
 }
+
 header {
   display: flex;
   justify-content: space-around;
@@ -18,16 +21,19 @@ header {
   background-color: #e2e2e2;
   margin: 0;
 }
+
 header h1 {
   margin: 0;
   padding: 1rem 0;
   flex-grow: 1;
 }
+
 header p {
   margin: 0;
   flex-grow: 2;
   text-align: center;
 }
+
 nav ul {
   margin: auto;
   padding: .75em 1em .6em;
@@ -36,13 +42,16 @@ nav ul {
   display: flex;
   justify-content: space-around;
 }
+
 nav li {
   padding: 1rem;
 }
+
 nav a {
   color: #0074d9;
   text-decoration: none;
 }
+
 nav a:hover {
   color: #fff;
 }
